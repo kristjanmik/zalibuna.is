@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>zalibuna</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="http://vjs.zencdn.net/4.1/video-js.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <h1>zalibuna</h1>
+        </div>
+        <div class="wrap employees">
+            <div class="thetext">Zalibuna’s goal is to design and set up a one man roller coaster down the hills of Kambarnir near Hveragerði which is one of the most traveled areas in Iceland. The unique experience of racing down a hill combined with the beautiful view Iceland has to offer is the reason why this is such an exciting project. Additionally we will be operating a charming restaurant at the top of the hill with a beautiful observation deck combined with a souvenir shop.</div>
+        </div>
+        <div class="wrap employees">
+            <video id="example_video_1" class="video-js vjs-default-skin"
+              data-setup='{ "controls": true, "autoplay": false, "preload": "auto" }' width="860" height="485">
+             <source src="Zalibuna_Video.m4v" type='video/mp4' />
+            </video>
+        </div>
+        <div class="wrap employees">
+            <h3>Investor Login</h3>
+            <form action="/" method="post">
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                <input type="submit" value="Login">
+            </form>
+            <a href="mailto:david@zalibuna.is" class="become-investor">Interested in becoming an investor?</a>
+        </div>
+        <div class="wrap employees">
+            <h3>The Team</h3>
+            <div class="employee">
+                <img src="david.jpg" alt="">
+                <div class="info">
+                    <p class="name">Davíð Örn Símonarson</p>
+                    <p class="title">Framkvæmdastjóri // CEO</p>
+                    <p>S: 848-3845</p>
+                    <p><a href="mailto:david@zalibuna.is">david@zalibuna.is</a></p>
+                </div>
+            </div>
+            <div class="employee">
+                <img src="skuli.jpg" alt="">
+                <div class="info">
+                    <p class="name">Skúli Sigurðsson</p>
+                    <p class="title">Fjármálastjóri // CFO</p>
+                    <p>S: 690-2286</p>
+                    <p><a href="mailto:skuli@zalibuna.is">skuli@zalibuna.is</a></p>
+                </div>
+            </div>            <div class="employee">
+                <img src="dorabjork.jpg" alt="">
+                <div class="info">
+                    <p class="name">Dóra Björk Þrándardóttir</p>
+                    <p class="title">Markaðsstjóri // CMO</p>
+                    <p>S: 772-1741</p>
+                    <p><a href="mailto:dorabjork@zalibuna.is">dorabjork@zalibuna.is</a></p>
+                </div>
+            </div>
+            <div class="employee">
+                <img src="sindri.jpg" alt="">
+                <div class="info">
+                    <p class="name">Sindri Rafn Sindrason<p>
+                    <p class="title">Tæknistjóri // CTO</p>
+                    <p>S: 866-1988</p>
+                    <p><a href="mailto:sindri@zalibuna.is">sindri@zalibuna.is</a></p>
+                </div>
+            </div>
+        </div>
+        <script src="http://vjs.zencdn.net/4.1/video.js"></script>
+        <script>
+        (function() {
+            var form = document.forms[0];
+            form[ form.addEventListener ?
+                'addEventListener' :
+                'attachEvent'
+            ]((form.attachEvent ? 'on' : '') + 'submit', function ( e ) {
+                if ( e.preventDefault ) e.preventDefault();
+                else e.returnValue = false;
+            });
+        })();
+        </script>
+    </body>
+</html>

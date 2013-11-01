@@ -1,0 +1,185 @@
+@keyframes "wave" {
+ 0% {
+    border-radius: 8px;
+   	border-top-left-radius: 50%;
+   	border-bottom-right-radius: 50%;
+ }
+ 50% {
+    border-radius: 8px;
+   	border-top-right-radius: 50%;
+   	border-bottom-left-radius: 50%;
+ }
+ 100% {
+    border-radius: 8px;
+   	border-top-left-radius: 50%;
+   	border-bottom-right-radius: 50%;
+ }
+
+}
+
+@-moz-keyframes wave {
+ 0% {
+   border-radius: 8px;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+ }
+ 50% {
+   border-radius: 8px;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+ }
+ 100% {
+   border-radius: 8px;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+ }
+
+}
+
+@-webkit-keyframes "wave" {
+ 0% {
+   border-radius: 8px;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+ }
+ 50% {
+   border-radius: 8px;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+ }
+ 100% {
+   border-radius: 8px;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+ }
+
+}
+
+@-o-keyframes "wave" {
+ 0% {
+   border-radius: 8px;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+ }
+ 50% {
+   border-radius: 8px;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+ }
+ 100% {
+   border-radius: 8px;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+ }
+
+}
+
+h1 {
+	width: 483px;
+	height: 178px;
+	background: transparent url(zalibuna.png) top right no-repeat;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+}
+
+h2 {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 3;
+	background: #e82530;
+	border-radius: 8px;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	cursor: default;
+
+	-webkit-animation: wave 4s infinite;
+	-moz-animation: wave 4s infinite;
+	-ms-animation: wave 4s infinite;
+	-o-animation: wave 4s infinite;
+	animation: wave 4s infinite;
+}
+
+a {
+   color: #166691;
+   text-decoration: none;
+}
+
+a:hover { color: #e82530; }
+
+.email {
+	width: 322px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #166691;
+	border-radius: 50%;
+}
+
+input {
+   padding: 5px 7px;
+   border: 1px solid #bbb;
+}
+
+input[type="submit"] {
+   padding: 6px 8px;
+   border: none;
+   background: #166691;
+   color: #fff;
+}
+
+.become-investor {
+   display: block;
+   text-decoration: none;
+   margin-top: 10px;
+   color: #bbb;
+}
+
+.become-investor:hover {
+   color: #166691;
+}
+
+.email:hover {
+	border-bottom: 3px solid #e82530;
+}
+.wrap {
+	width: 483px;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.employees {
+   width: 880px;
+}
+
+.employee {
+   width: 200px;
+   text-align: left;
+   margin: 0 10px 40px;
+   float: left;
+}
+
+.employee p {
+   line-height: 5px;
+   font-size: 14px;
+}
+
+.employee .title {
+   font-style: italic;
+}
+
+.employee .name {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.employee img {
+   width: 200px;
+}
+
+.thetext {
+   font-size: 20px;
+}
